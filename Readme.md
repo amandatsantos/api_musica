@@ -4,7 +4,7 @@ montar uma api,  onde é possivel consultar uma musica em individual, obter info
 
 ## 2- endpoints 
 consultar - get
-editar - get
+obter musica - get
 criar - post
 excluir - delete
 
@@ -15,11 +15,11 @@ delete
 
 ## 4- urls completas
 
-obter musica - get - ***'127.0.0.1:8000//musicas/2/{musica_id}' ***
-listar - get -*** '127.0.0.1:8000//musicas' ***
-criar - post - ***'127.0.0.1:8000//musicas'**
-excluir - delete - *** '127.0.0.1:8000//musicas/1/{musica_id}' ***
+<br> obter musica - get - ***'127.0.0.1:8000//musicas/2/{musica_id}' *** </br>
+<br> listar - get -*** '127.0.0.1:8000//musicas' ***  </br>
+<br> criar - post - ***'127.0.0.1:8000//musicas'***  </br>
+<br> excluir - delete - *** '127.0.0.1:8000//musicas/1/{musica_id}' ***  </br>
 
 ## 5- estrutura
-lista de dicionarios, que contem canção, estilo, autor e ano de lançamento
+lista de dicionarios, que contem nome da musica, estilo, autor e ano de lançamento
 
